@@ -1,5 +1,5 @@
 <script>
-  import { createEventDispatcher } from "svelte";
+  import { createEventDispatcher, onMount } from "svelte";
   let host = "https://blog-api-isight.herokuapp.com";
 
   export let title;
@@ -8,6 +8,10 @@
   export let id;
   export let posts;
   export let imageBackdrop;
+
+  onMount(() => {
+    window.scrollTo(0, 0);
+  });
 
   const dispatch = createEventDispatcher();
   const selectedPost = posts.find(i => i.id === id);

@@ -13,10 +13,9 @@
   let posts = [];
 
   onMount(async function() {
-    const response = await fetch(
-      "https://blog-api-isightrpv.herokuapp.com/posts"
-    );
+    const response = await fetch("https://blog-api-isight.herokuapp.com/posts");
     posts = await response.json();
+    console.log(posts);
   });
 
   function showDetails(event) {
@@ -40,4 +39,5 @@
   <Footer />
 {:else}
   <PostDetail id={pageData.id} {posts} />
+  <Footer />
 {/if}

@@ -16,14 +16,11 @@
           style="width: 110px"
           alt="Blue/Black Aviator Wings ISight Logo" />
       </a>
-      <a class="navbar-brand navbar-left" href="#home">
-        <span
-          style="color: #337ab7; font-size: 18px !important; font-weight: bold
-          !important">
-          ISIGHT
-        </span>
-        <span id="span2">|</span>
-        <span id="span3" style="color: #337ab7">RPV Services</span>
+      <a
+        class="navbar-brand navbar-left"
+        href="#home"
+        style="font-weight: bolder">
+        ISIGHT RPV Services
       </a>
       <button
         class="navbar-toggler"
