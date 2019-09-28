@@ -1,6 +1,6 @@
 <script>
   import { createEventDispatcher } from "svelte";
-  let host = "http://localhost:1337";
+  let host = "https://blog-api-isight.herokuapp.com";
 
   export let title;
   export let subtitle;
