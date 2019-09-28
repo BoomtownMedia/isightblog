@@ -16,12 +16,13 @@
 </style>
 
 <div class="card card-blog">
-  <div class="card-header card-header-image">
+  <div class="card-header card-header-image" style="object-fit:contain">
     <img
       class="img img-rounded img-raised"
       src={host + imageBackdrop.url}
       alt=""
-      height="300" />
+      height="300"
+      style="object-fit:contain" />
   </div>
   <div class="card-body">
     <h6 class="card-category text-info">Enterprise</h6>

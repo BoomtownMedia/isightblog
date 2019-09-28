@@ -13,7 +13,7 @@
   let posts = [];
 
   onMount(async function() {
-    const response = await fetch("http://localhost:1337/posts");
+    const response = await fetch("https://blog-api-isight.herokuapp.com/posts");
     posts = await response.json();
   });
 
