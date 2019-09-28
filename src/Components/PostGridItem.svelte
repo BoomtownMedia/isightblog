@@ -6,7 +6,7 @@
   export let imageBackdrop;
   export let id;
 
-  let host = "https://blog-api-isight.herokuapp.com";
+  let host = "https://blog-api-isightrpv.herokuapp.com";
 
   const dispatch = createEventDispatcher();
 </script>

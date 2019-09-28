@@ -13,7 +13,9 @@
   let posts = [];
 
   onMount(async function() {
-    const response = await fetch("https://blog-api-isight.herokuapp.com/posts");
+    const response = await fetch(
+      "https://blog-api-isightrpv.herokuapp.com/posts"
+    );
     posts = await response.json();
   });
 
